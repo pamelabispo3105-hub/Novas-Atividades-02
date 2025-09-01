@@ -1,0 +1,9 @@
+# Exercício Sobre Salario 9 Lição
+
+salario = 3500.00
+idade = 22
+
+if salario >= 3000 and idade >= 21:
+   print ("A pessoa pode pegar empréstimo.")
+else:
+   print("A pessoa não pode pegar empréstimo.")

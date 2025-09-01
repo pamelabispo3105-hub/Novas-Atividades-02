@@ -1,0 +1,11 @@
+#exercício comparacao de Valores 2 Lição
+
+x = 5
+y = 7
+
+print ("x == y:", x == y)
+print ("X != Y:", x !=y)
+print  ("x > y:", x > y)
+print ("x < y:", x < y)
+print ("x >= y:", x < y)
+print (" x <= y:",x <= y)

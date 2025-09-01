@@ -1,0 +1,11 @@
+# Exercício sobre Meta Lição 8
+
+meta = 5000
+economia_mensal = 200
+
+meses = meta / economia_mensal 
+dias = meses * 30
+
+print("Serão necessários", meses, "mesesa para atingir a meta.")
+
+print("Ou aproximadamente", dias, "dias.")
