@@ -1,0 +1,20 @@
+# Atvidade 1
+
+import streamlit as st
+
+
+st.sidebar.title ('Festa das Garotas')
+st.sidebar.image ('2000.jpg')
+
+coluna[0].write ('Coluna 1')
+coluna[1].write ('Coluna 2')
+coluna[2].write ('Coluna 3')
+coluna[3].write ('Coluna 4')
+
+coluna[1].button('')
+
+if st.button ('Botão'):
+    st.write ('Hello')
+
+
+    

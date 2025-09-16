@@ -1,0 +1,31 @@
+# Ativade 1
+
+import streamlit as st 
+lista=st.columns(4)
+
+with lista[0]:
+    st.write('coluna 1')
+    st.button('clique aqui')
+
+    nome=st.text_input('Digite seu nome')
+    nome=st.text_input('Digite seu nome')
+
+    st.write(nome)
+
+if st.button('enviar'):
+    if email == 'PamelaGameplay@gmail':
+        st.sucess('email enviado com sucesso')
+    else:
+        st.error('email invalido')
+        
+with lista [1]:
+    st.write('coluna 2')
+    st.buton('clique aqui')
+
+with lista [2]:
+    st.write('coluna 3')
+    st.button('clique aqui')
+
+with listya [3]:
+    st.write('coluna 4')
+    st.button('clique aqui')
